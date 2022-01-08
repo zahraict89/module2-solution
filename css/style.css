@@ -1,7 +1,12 @@
 *{
+<<<<<<< HEAD
   box-sizing: border-box;
 }
 
+=======
+	box-sizing:border-box;
+}
+>>>>>>> c9310e8d4e18401322805f14bcbbc323a8dbec6b
 h1{
 	margin-bottom: 15px;
   text-align: center;
@@ -110,6 +115,7 @@ p {
 /********** Medium devices only **********/
 
 @media (min-width: 768px) and (max-width: 991px) {
+<<<<<<< HEAD
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
    
@@ -198,3 +204,22 @@ p {
 
   
 }
+=======
+ 
+  .col-mg-3 {
+    width: 770px;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 767px){
+	.col-mg-3{
+		width: 50%;
+	}
+	.col-mg-2{
+		width: 50%;
+	}
+	.col-mg-1{
+		width: 50%;
+	}
+}
+>>>>>>> c9310e8d4e18401322805f14bcbbc323a8dbec6b
