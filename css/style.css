@@ -1,0 +1,55 @@
+h1{
+	margin-bottom: 15px;
+	text-align: center;
+}
+.test{
+	margin: 35px;
+	width: 350px;
+	height: 200px;
+	border: 2px solid black;
+	float: left;
+	background-color: grey;
+
+}
+.test > div{
+	margin: 0;
+}
+.test > div > h3{
+	margin: 0;
+	float: right;
+	border: 2px solid black;
+	width: 100px;
+	text-align: center;
+}
+.col1{
+	background-color: pink;
+}
+.col2{
+	background-color: red;
+	color: white;
+}
+.col3{
+	background-color: yellow;
+}
+.test p{
+	margin-top: 0px;
+	padding: 10px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-mg-3 {
+    width: 770px;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 767px){
+	.col-mg-3{
+		width: 50%;
+	}
+	.col-mg-2{
+		width: 50%;
+	}
+	.col-mg-1{
+		width: 50%;
+	}
+}
